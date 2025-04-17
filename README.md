@@ -1,36 +1,35 @@
-Product App
-Overview
-Product App is a simple Angular application that displays a list of products and allows users to view detailed information about each product. The app includes basic navigation between pages and is built following Angular best practices, including component-based architecture, services, and routing.
-Features
+                                                              Product App
+Overview :
+- Product App is a simple Angular application that displays a list of products and allows users to view detailed information about each product. The app includes basic navigation between pages and is built following Angular best practices, including component-based architecture, services, and routing.
+  
+Features :
+- View a list of products with details such as name, category, price, description, and rating.
+- Navigate to a detailed view of a product by clicking "View Details".
+- Return to the product list using the "Back to Products" button.
 
-View a list of products with details such as name, category, price, description, and rating.
-Navigate to a detailed view of a product by clicking "View Details".
-Return to the product list using the "Back to Products" button.
-Professional styling with a modern color scheme and responsive layout.
+Prerequisites :
+-To run the application locally, ensure you have the following installed:
 
-Prerequisites
-To run the application locally, ensure you have the following installed:
-
-Node.js (v14.x or later) and npm (v6.x or later). Download from nodejs.org.
-Angular CLI (v17.x or later). Install globally using:npm install -g @angular/cli
+1) Node.js (v14.x or later) and npm (v6.x or later). Download from nodejs.org.
+2) Angular CLI (v17.x or later). Install globally using:npm install -g @angular/cli
 
 
-Git (to clone the repository). Download from git-scm.com.
+3) Git (to clone the repository). Download from git-scm.com.
 
-Running the Application Locally
+Running the Application Locally :
 Follow these steps to run the Product App on your local machine:
 
-Clone the RepositoryClone the project from GitHub to your local machine:
-git clone https://github.com/VaishaliKondoju/product-app
-cd product-app
+- Clone the RepositoryClone the project from GitHub to your local machine:
+- git clone https://github.com/VaishaliKondoju/product-app
+- cd product-app
 
 
 Install DependenciesInstall the required npm packages:
-npm install
+- npm install
 
 
 Run the ApplicationStart the Angular development server:
-ng serve
+- ng serve
 
 This will compile the application and start a local server.
 
@@ -40,11 +39,11 @@ http://localhost:4200/
 The app will automatically redirect to /products, where you can view the product list. Click "View Details" on any product to see more information, and use the "Back to Products" button to return to the list.
 
 
-Notes
+Notes :
 
-The product data is currently hardcoded in src/app/services/product.service.ts. In a real-world scenario, this could be replaced with an API call.
-The application is built using Angular 17 with standalone components and modern routing practices.
-For production deployment, you can build the app using:ng build --prod
+- The product data is currently hardcoded in src/app/services/product.service.ts. In a real-world scenario, this could be replaced with an API call.
+- The application is built using Angular 17 with standalone components and modern routing practices.
+- For production deployment, you can build the app using:ng build --prod
 
 
 
