@@ -1,0 +1,12 @@
+<div *ngIf="product" class="product-detail">
+  <h2>{{ product.name }}</h2>
+  <p class="category">{{ product.category }}</p>
+  <p class="rating">Rating: {{ product.rating }} ★</p>
+  <p class="price">Price: ${{ product.price.toFixed(2) }}</p>
+  <p class="description">{{ product.description }}</p>
+  <button (click)="goBack()">Back to Products</button>
+</div>
+<div *ngIf="!product">
+  <p>Product not found.</p>
+  <button (click)="goBack()">Back to Products</button>
+</div>
