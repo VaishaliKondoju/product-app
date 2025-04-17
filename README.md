@@ -16,7 +16,8 @@ Prerequisites :
 
 3) Git (to clone the repository). Download from git-scm.com.
 
-Running the Application Locally :
+**Running the Application Locally :**
+
 Follow these steps to run the Product App on your local machine:
 
 - Clone the RepositoryClone the project from GitHub to your local machine:
@@ -47,11 +48,11 @@ Notes :
 
 
 
-Troubleshooting
+Troubleshooting :
 
-If ng serve fails, ensure all dependencies are installed (npm install) and Angular CLI is up to date.
-Check the console for errors and verify Node.js and npm versions match the prerequisites.
-If the app doesn’t load at http://localhost:4200/, ensure no other process is using port 4200, or run the server on a different port:ng serve --port 4201
+-If ng serve fails, ensure all dependencies are installed (npm install) and Angular CLI is up to date.
+-Check the console for errors and verify Node.js and npm versions match the prerequisites.
+-If the app doesn’t load at http://localhost:4200/, ensure no other process is using port 4200, or run the server on a different port:ng serve --port 4201
 
 
 
